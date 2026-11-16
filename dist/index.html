@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
   <header class="topbar">
@@ -42,10 +42,28 @@
     <section class="games section-wrap" id="games">
       <div class="section-intro"><p class="eyebrow">01 / PRESS START</p><h2>Pick your<br><em>kind of chaos.</em></h2><p>Quick decisions, close calls, and the occasional “that was absolutely the game's fault.” Find a little adventure for whatever mood you're in.</p></div>
       <div class="game-list">
-        <a class="game-card game-card-red" href="https://github.com/stepstowhitehk-hongkong/RedEarthGameStudio/releases/download/deadrunmatch-v0.1.8/DeadRunMatch-v0.1.8.apk" target="_blank" rel="noopener" aria-label="Download Dead Run Match for Android"><div class="card-top"><span>01 · PUZZLE / ESCAPE</span><span class="card-arrow">↗</span></div><div class="mini-art cemetery-art"><span class="moon"></span><span class="tomb tomb-a"></span><span class="tomb tomb-b"></span><span class="runner">●</span><span class="zombie">●</span><span class="path"></span></div><div class="card-copy"><h3>Dead Run Match</h3><p>Match monsters. Make a getaway. Try not to think too hard about why the cemetery has excellent puzzle pieces.</p><span class="tag">DOWNLOAD ANDROID GAME</span></div></a>
+        <a class="game-card game-card-red" href="#dead-run-match" aria-label="Learn how Dead Run Match works"><div class="card-top"><span>01 · PUZZLE / ESCAPE</span><span class="card-arrow">↗</span></div><div class="mini-art cemetery-art"><img src="assets/dead-run-icon.png" alt="Red-hooded survivor facing a zombie in the cemetery" width="512" height="512" loading="lazy"></div><div class="card-copy"><h3>Dead Run Match</h3><p>Match falling monsters to earn escape steps. Reach the cemetery gate before the zombie catches you.</p><span class="tag">EXPLORE THE GAME</span></div></a>
         <a class="game-card game-card-blue" href="https://github.com/stepstowhitehk-hongkong/RedEarthGameStudio/releases/download/skydrop-v1.4/SkyDropChallenge-v1.4-Android.apk" target="_blank" rel="noopener" aria-label="Download SkyDrop Challenge v1.4 for Android"><div class="card-top"><span>02 · SKILL / SKY-HIGH</span><span class="card-arrow">↗</span></div><div class="mini-art sky-art"><span class="cloudlet cloudlet-a"></span><span class="cloudlet cloudlet-b"></span><span class="plane">✈</span><span class="parachute">◠<i></i></span><span class="island"></span><span class="sparkle">✳</span></div><div class="card-copy"><h3>SkyDrop Challenge</h3><p>Take the scenic route down. A little wind, a lot of sky, and a landing plan that is mostly optimism.</p><span class="tag">DOWNLOAD ANDROID TEST BUILD</span></div></a>
-        <article class="game-card game-card-yellow"><div class="card-top"><span>03 · EVERYDAY / WHEEL OF FATE</span><span class="card-arrow">↗</span></div><div class="mini-art dinner-art"><div class="plate"><span>🍜</span></div><span class="orbit-dot dot-a"></span><span class="orbit-dot dot-b"></span><span class="orbit-dot dot-c"></span><span class="caption-sticker">AGAIN?</span></div><div class="card-copy"><h3>What to Eat?</h3><p>End the “you pick” standoff. Spin for dinner, celebrate the result, and quietly negotiate with the result.</p><span class="tag">DECISIONS, SERVED HOT</span></div></article>
+
       </div>
+    </section>
+
+    <section class="game-spotlight" id="dead-run-match" aria-labelledby="dead-run-title">
+      <div class="spotlight-copy">
+        <p class="eyebrow">FEATURED GAME · ANDROID · OFFLINE</p>
+        <h2 id="dead-run-title">Dead Run<br><em>Match.</em></h2>
+        <p class="spotlight-lede">One match buys one step. In a moonlit cemetery, a red-hooded survivor has 32 steps to reach the gate while a zombie follows close behind.</p>
+        <div class="spotlight-facts" aria-label="Game rules">
+          <div><strong>3+</strong><span>matching tiles to clear</span></div>
+          <div><strong>8</strong><span>clears to level up</span></div>
+          <div><strong>32</strong><span>steps to the gate</span></div>
+        </div>
+        <h3>Every round changes the chase.</h3>
+        <p>Move the falling monster left or right, make groups of three or more, and watch the pieces above fall into new matches. Each cleared group earns one escape step. When a round ends, the illustrated cemetery map shows your progress—then the zombie moves five steps.</p>
+        <p>Clear eight groups to advance. If you survive with fewer, try the same level again; the pace gradually rises as you go. Reach the gate before the zombie reaches you.</p>
+        <div class="spotlight-actions"><a class="button button-amber" href="https://github.com/stepstowhitehk-hongkong/RedEarthGameStudio/releases/download/deadrunmatch-v0.1.8/DeadRunMatch-v0.1.8.apk" target="_blank" rel="noopener" aria-label="Download Dead Run Match Android test build">Download Android test build <span>↗</span></a><span>Portrait 2D · Android 8.0+ · English / 繁體中文</span></div>
+      </div>
+      <div class="spotlight-visual"><img src="assets/dead-run-cemetery-map.jpg" alt="Moonlit cemetery escape route with tombstones, angel statues, winding path and gate" width="941" height="1672" loading="lazy"><div class="map-caption"><span>ESCAPE ROUTE</span><b>32 steps to safety</b></div></div>
     </section>
 
     <section class="about" id="about">
