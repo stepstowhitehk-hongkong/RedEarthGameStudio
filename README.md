@@ -1,4 +1,4 @@
-# Red Earth Studio
+# Red Earth Game Studio
 
 A single-page studio website built with plain HTML and CSS.
 
